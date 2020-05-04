@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wiz8mhb.css">
     <title>Simple calculator</title>
 </head>
 <body>
-    
+    <div class="background">
+        <div class="app">
+            <div class="buttons">
+                <form action="">
+                    <input type="text" autofocus placeholder="0" autocomplete="off" maxlength="8123456789" name="screen" id="screen">
+                    <input type="button" value="C" class="transform">
+                    <input type="button" value="+/-" class="transform">
+                    <input type="button" value="%" class="transform">
+                    <input type="button" value="/" class="operator">
+                    <input type="button" value="7" class="data">
+                    <input type="button" value="8" class="data">
+                    <input type="button" value="9" class="data">
+                    <input type="button" value="*" class="operator">
+                    <input type="button" value="4" class="data">
+                    <input type="button" value="5" class="data">
+                    <input type="button" value="6" class="data">
+                    <input type="button" value="-" class="operator">
+                    <input type="button" value="1" class="data">
+                    <input type="button" value="2" class="data">
+                    <input type="button" value="3" class="data">
+                    <input type="button" value="+" class="operator">
+                    <input type="button" value="0" class="data">
+                    <input type="button" value="." class="data">                
+                    <input type="button" value="=" class="sum">
+                </form>
+            </div>
+        </div>
+    </div>    
 </body>
+<script src="./scripts/index.js"></script>
 </html>
